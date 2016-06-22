@@ -9,7 +9,7 @@
 
 Adafruit_SSD1306 display(OLED_RESET);
 SFE_BMP180 pressure;
-SoftwareSerial esp8266(10,11); // make RX Arduino line is pin 10, make TX Arduino line is pin 10.
+SoftwareSerial esp8266(10,11); // make RX Arduino line is pin 10, make TX Arduino line is pin 11.
                              // This means that you need to connect the TX line from the esp to the Arduino's pin 10
                              // and the RX line from the esp to the Arduino's pin 11.
 
