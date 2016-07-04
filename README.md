@@ -13,5 +13,7 @@ Thingspeak data is being refreshed every 30 minutes.
 
 Check my blog : http://www.madeinfck.com
 
-#13/06/16 :
-First you need to configure your ESP8266 with your network.
+#13/06/16 :  
+Got rid off the breadboard and soldered this scheme.
+Don't forget to configure your ESP8266 with your network.
+Next step : packaging using 3D printer after designing a fitting case (with *Blender* probably).
