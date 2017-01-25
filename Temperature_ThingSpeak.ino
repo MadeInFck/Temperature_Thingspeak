@@ -57,6 +57,7 @@ void setup()
   Serial.println(F("Initialisation du module Wifi!"));
   sendData("AT+RST\r\n",10000,DEBUG); // reset module
   sendData("AT+CWMODE=1\r\n",2000,DEBUG); // configure as STA point
+  sendData("AT+CWJAP=\"xxxxxx\",\"xxxxx\"")
   sendData("AT+CIFSR\r\n",2000,DEBUG); // get ip address
   sendData("AT+CIPMUX=0\r\n",2000,DEBUG); // configure for single connection
   waitFor(2000);
